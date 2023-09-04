@@ -1,0 +1,48 @@
+
+
+body{
+  background-color: bisque;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.title{
+  margin: 50px 0;
+  
+}
+
+.day-list{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+}
+.day-list li {
+  border: 1px solid black;
+  margin-left: 20px;
+  padding: 10px;
+
+}
+
+select {
+
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+
+  width: 10em;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background-color: rgb(88, 79, 79);
+  color:azure;
+  
+}
+
+
