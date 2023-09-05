@@ -36,7 +36,7 @@ function Input() {
         loading ? "loading" : 
         
         <div>
-        <label htmlFor="location">Select Location</label>
+        <label htmlFor="location"> <h2>Select Location</h2></label>
         <br />
         <select  id="location" value={city} onChange={changeCity}>
             {

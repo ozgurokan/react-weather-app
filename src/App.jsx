@@ -8,7 +8,7 @@ import CityContext from './contexts/CityContext';
 
 function App() {
 
-  const [city,setCity] = useState("Adana");
+  const [city,setCity] = useState("adana");
 
   const data = {
     city,
