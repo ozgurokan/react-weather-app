@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Input from './components/Input';
 import Card from './components/Card';
 import CityContext from './contexts/CityContext';
-import axios from "axios";
+
 
 
 function App() {
