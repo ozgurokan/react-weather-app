@@ -49,7 +49,7 @@ function Card() {
                     </div>
                     <div className="day-list-temp">
                       <p className="maxTemp">{(element.main.temp_max).toFixed(1)} °C</p>
-                      <p> {element.main.temp_min} °C </p>
+                      <p> {(element.main.temp_min).toFixed(1)} °C </p>
                     </div>
                    </div>
               }
