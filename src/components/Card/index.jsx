@@ -34,7 +34,6 @@ function Card() {
     searchWeather();
 
   },[city])
-  console.log(weather);
     return ( 
     <>
         <div className="day-list">
