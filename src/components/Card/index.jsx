@@ -5,13 +5,12 @@ import axios from 'axios';
 
 
 function Card() {
-    const daysOfTheWeek = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
     const {city} = useContext(CityContext);
     const [weather, setWeather] = useState([{}]);
 
     const weatherAPI = {
     key: "702de8856bc6a34b2d2e96ba89337678",
-    base: "http://api.openweathermap.org/data/2.5/",
+    base: "https://api.openweathermap.org/data/2.5/",
     };
 
   const searchWeather = async () => {

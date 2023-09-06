@@ -14,7 +14,6 @@ function Input() {
     const changeCity = (e) => {
         setCity(e.target.value)
     }
-    //"https://turkiyeapi.cyclic.app/api/v1/provinces?name=istanbul"
 
     const getCities = async () => {
         setLoading(true);
