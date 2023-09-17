@@ -3,7 +3,7 @@
 - ### Sizden genel olarak bir hava durumu uygulaması geliştirmeniz bekleniyor. Türkiye'nin tüm illerinin bir haftalık hava raporunu görüntüleyebilmeliyiz.
 -----------------------
 [Patika](https://www.patika.dev/tr) React dersleri ikinci ödevi__
-Canlı demoya [buradan](hhttps://ozgur-okan-weather-app.netlify.app/) ulaşabilirsiniz.
+Demoya [buradan](hhttps://ozgur-okan-weather-app.netlify.app/) ulaşabilirsiniz.
  
 -----------------------
 # _Gereksinimler_
